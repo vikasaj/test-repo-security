@@ -1,0 +1,10 @@
+{
+    "name": "vikas/test-repo-security",
+    "authors": [
+        {
+            "name": "Vikas",
+            "email": "singhav@aljazeera.net"
+        }
+    ],
+    "require": {}
+}
