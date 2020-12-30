@@ -1,0 +1,22 @@
+{
+  "name": "test-repo-security",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikasaj/test-repo-security.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikasaj/test-repo-security/issues"
+  },
+  "homepage": "https://github.com/vikasaj/test-repo-security#readme",
+  "dependencies": {
+    "react-native-webview": "^10.10.2"
+  }
+}
