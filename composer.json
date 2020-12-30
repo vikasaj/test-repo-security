@@ -6,5 +6,7 @@
             "email": "singhav@aljazeera.net"
         }
     ],
-    "require": {}
+    "require": {
+        "phpmailer/phpmailer": "5.2.17"
+    }
 }
