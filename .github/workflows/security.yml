@@ -27,3 +27,6 @@ jobs:
 
       - name: The PHP Security Checker
         uses: symfonycorp/security-checker-action@v2
+        
+      - name: Snyk
+        uses: snyk/actions@0.3.0
