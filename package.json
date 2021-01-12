@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/vikasaj/test-repo-security#readme",
   "dependencies": {
-    "react-native-webview": "^10.10.2"
+    "react-native-webview": "^11.0.0"
   },
   "devDependencies": {
     "@hawkeyesec/scanner-cli": "^1.8.1"
