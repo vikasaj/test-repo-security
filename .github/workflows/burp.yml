@@ -28,5 +28,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Download jar and verify
         run: |
-          wget "https://portswigger.net/burp/releases/download?product=generic_ci_driver&version=2021.3&type=Jar"
-          ls -l
+          wget -O burp.jar "https://portswigger.net/burp/releases/download?product=generic_ci_driver&version=2021.3&type=Jar"
+          java -jar burp.jar https://827c9b05e921.ngrok.io --api-key=eNwAkAleV5Zjdp9K969nKkkhZwtnGF2U --site-id=1 --min-severity=high --min-confidence=certain --report-file=scan-report.html --report-type=summary 
+          
