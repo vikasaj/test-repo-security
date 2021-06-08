@@ -19,6 +19,6 @@
   "dependencies": {
   },
   "devDependencies": {
-    "@hawkeyesec/scanner-cli": "^1.8.1"
+    "@hawkeyesec/scanner-cli": "1.8.1"
   }
 }
