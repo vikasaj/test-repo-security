@@ -20,7 +20,7 @@ jobs:
     steps:
       # Starts actions with given inputs
       - name: Start Netsparker Enterprise Scan
-        uses: netsparker/Netsparker-Cloud-GitHub-Actions@v0.0.1
+        uses: netsparker/Netsparker-Cloud-GitHub-Actions@v0.1.1
         id: netsparker-enterprise-scan-step
         with:
           website-id: '7c834ebc-4a0c-47fa-83a1-ad410318b5f1'
